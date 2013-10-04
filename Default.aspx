@@ -33,7 +33,8 @@
         Monthly Payment: &nbsp; <asp:Label ID="lblMonthlyPmt" runat="server"></asp:Label> 
          
         <br /><br />          
-        <asp:GridView ID="loanGridView" runat="server" />              
+        <asp:GridView ID="loanGridView" runat="server" /> 
+        <%End If%>      
     </div>
     </form>
 </body>
